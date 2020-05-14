@@ -43,7 +43,7 @@
     <table>
 
         <tr>
-            <td width="165px"><b>Example 1</b></td>
+            <td width="165px"><b>Example 1. Trained only On NUS, Seen Song</b></td>
             <td width="150px"><b>Original Singer (re-synthesized by WORLD)</b></td>
             <td width="150px"><b>Target Same As Original Singer</b></td>
             <td width="150px"><b>Seen Target Same Gender</b></td>
@@ -52,7 +52,7 @@
             <td width="150px"><b>Seen Target Different Gender Example (re-synthesized by WORLD)</b></td>
         </tr>
         <tr>
-            <td><b>GE2E Embedding, Trained only On NUS, Seen Song</b></td>
+            <td><b>GE2E</b></td>
             <td>
                 <audio controls preload="none">
   <source src="audio/nus_ADIZ_09_13_ADIZ_ori.wav" type="audio/mpeg">
@@ -97,7 +97,7 @@
     <table>
 
         <tr>
-            <td width="165px"><b>JE Embedding, Trained only On NUS, Seen Song</b></td>
+            <td width="165px"><b>JE</b></td>
             <td>
                 <audio controls preload="none">
   <source src="audio/nus_ADIZ_09_13_ADIZ_ori.wav" type="audio/mpeg">
@@ -127,7 +127,7 @@
                 <audio controls preload="none">
   <source src="audio/nus_ADIZ_09_13_KENN_autovc_emb_JE.wav" type="audio/mp3">
   Your browser does not support the audio element.
-  </audio>
+</audio>
             </td>
             <td>
                 <audio controls preload="none">
@@ -140,10 +140,10 @@
     </table>
 
     <table>
-        <td width="165px"><b>Example 2. Model trained only On NUS, Unseen Song (4)</b></td>
+        <td width="165px" colspan="2"><b>Example 2. Unseen Song (4)</b></td>
         <br>
         <tr>
-            <td width="165px"><b><b>GE2E Embedding</b></b>
+            <td width="165px"><b><b>GE2E</b></b>
             </td>
             <td>
                 <audio controls preload="none">
@@ -190,7 +190,7 @@
     <table>
 
         <tr>
-            <td width="165px"><b>JE Embeddings</b></td>
+            <td width="165px"><b>JE</b></td>
             <td>
                 <audio controls preload="none">
         <source src="audio/JE/nus/original/MCUR_src.wav" type="audio/mpeg">
@@ -232,97 +232,170 @@
     </table>
 
     <table>
-        <td width="165px" colspan="4"><b>Example 3. Unseen source singer</b></td>
+        <tr>
+            <td width="150px"><b>Example 3. Unseen source singer from JVS</b></td>
+            <td width="150px"><b>Unseen Singer (re-synthesized by WORLD)</b></td>
+            <td width="150px"><b>Seen Target Same Gender</b></td>
+            <td width="150px"><b>Seen Target Same Gender Example (re-synthesized by WORLD)</b></td>
+            <td width="150px"><b>Seen Target Different Gender</b></td>
+            <td width="150px"><b>Seen Target Different Gender Example (re-synthesized by WORLD)</b></td>
+        </tr>
         <br>
         <tr>
-            <td width="165px"><b><b>GE2E Embeddings</b></b>
-            </td>
+            <td width="165px"><b>GE2E</b></td>
             <td>
-                <audio controls preload="none">
-  <source src="audio/GE2E/nus/original/MCUR_src.wav" type="audio/mpeg">
-  Your browser does not support the audio element.
-  </audio>
+            <audio controls preload="none">
+                <source src="audio/GE2E/jvs/original/jvs002_src.wav" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
             </td>
-
+    
             <td>
-                <audio controls preload="none">
-  <source src="audio/GE2E/nus/MCUR→MCUR.wav" type="audio/mp3">
-  Your browser does not support the audio element.
-  </audio>
+            <audio controls preload="none">
+            <source src="audio/GE2E/jvs/jvs002→MPOL.wav" type="audio/mp3">
+            Your browser does not support the audio element.
+            </audio>
             </td>
+            
             <td>
-                <audio controls preload="none">
-  <source src="audio/GE2E/nus/MCUR→ADIZ.wav" type="audio/mp3">
-  Your browser does not support the audio element.
-  </audio>
-            </td>
-            <td>
-                <audio controls preload="none">
-  <source src="audio/GE2E/nus/original/ADIZ_trg.wav" type="audio/mp3">
-  Your browser does not support the audio element.
-  </audio>
-            </td>
-            <td>
-                <audio controls preload="none">
-  <source src="audio/GE2E/nus/MCUR→JLEE.wav" type="audio/mp3">
-  Your browser does not support the audio element.
-  </audio>
-            </td>
-            <td>
-                <audio controls preload="none">
-  <source src="audio/GE2E/nus/original/JLEE_trg.wav" type="audio/mp3">
-  Your browser does not support the audio element.
-  </audio>
-            </td>
-        </tr>
-
+            <audio controls preload="none">
+            <source src="audio/GE2E/jvs/original/MPOL_trg.wav" type="audio/mp3">
+            Your browser does not support the audio element.
+            </audio>
+                </td>
+                <td>
+                    <audio controls preload="none">
+            <source src="audio/GE2E/jvs/jvs002→JLEE.wav" type="audio/mp3">
+            Your browser does not support the audio element.
+            </audio>
+                </td>
+                <td>
+                    <audio controls preload="none">
+            <source src="audio/GE2E/jvs/original/JLEE_trg.wav" type="audio/mp3">
+            Your browser does not support the audio element.
+                </td>
+            </tr>
     </table>
 
 
     <table>
-
         <tr>
-            <td width="165px"><b>JE Embeddings</b></td>
+            <td width="165px"><b>JE</b></td>
             <td>
                 <audio controls preload="none">
-        <source src="audio/JE/nus/original/MCUR_src.wav" type="audio/mpeg">
+        <source src="audio/JE/jvs/original/jvs002_src.wav" type="audio/mpeg">
         Your browser does not support the audio element.
         </audio>
             </td>
 
             <td>
                 <audio controls preload="none">
-        <source src="audio/JE/nus/MCUR→MCUR.wav" type="audio/mp3">
+        <source src="audio/JE/jvs/jvs002→MPOL.wav" type="audio/mp3">
         Your browser does not support the audio element.
         </audio>
             </td>
             <td>
                 <audio controls preload="none">
-        <source src="audio/JE/nus/MCUR→ADIZ.wav" type="audio/mp3">
+        <source src="audio/JE/jvs/original/MPOL_trg.wav" type="audio/mp3">
         Your browser does not support the audio element.
         </audio>
             </td>
             <td>
                 <audio controls preload="none">
-        <source src="audio/JE/nus/original/ADIZ_trg.wav" type="audio/mp3">
+        <source src="audio/JE/jvs/jvs002→JLEE.wav" type="audio/mp3">
         Your browser does not support the audio element.
         </audio>
             </td>
             <td>
                 <audio controls preload="none">
-        <source src="audio/JE/nus/MCUR→JLEE.wav" type="audio/mp3">
+        <source src="audio/JE/jvs/original/JLEE_trg.wav" type="audio/mp3">
         Your browser does not support the audio element.
-        </audio>
-            </td>
-            <td>
-                <audio controls preload="none">
-        <source src="audio/JE/nus/original/JLEE_trg.wav" type="audio/mp3">
-        Your browser does not support the audio element.
-        </audio>
             </td>
         </tr>
     </table>
+    <table>
+        <tr>
+            <td width="150px"><b>Example 3. Unseen to unseen</b></td>
+            <td width="150px"><b>Unseen Singer (re-synthesized by WORLD)</b></td>
+            <td width="150px"><b>Unseen Target Same Gender</b></td>
+            <td width="150px"><b>Unseen Target Same Gender Example (re-synthesized by WORLD)</b></td>
+            <td width="150px"><b>Unseen Target Different Gender</b></td>
+            <td width="150px"><b>Unseen Target Different Gender Example (re-synthesized by WORLD)</b></td>
+        </tr>
+        <br>
+        <tr>
+            <td width="165px"><b>GE2E</b></td>
+            <td>
+            <audio controls preload="none">
+                <source src="audio/GE2E/jvs/original/jvs002_src.wav" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            </td>
+    
+            <td>
+            <audio controls preload="none">
+            <source src="audio/GE2E/jvs/jvs002→jvs004.wav" type="audio/mp3">
+            Your browser does not support the audio element.
+            </audio>
+            </td>
+            
+            <td>
+            <audio controls preload="none">
+            <source src="audio/GE2E/jvs/original/jvs004_trg.wav" type="audio/mp3">
+            Your browser does not support the audio element.
+            </audio>
+                </td>
+                <td>
+                    <audio controls preload="none">
+            <source src="audio/GE2E/jvs/jvs002→jvs003.wav" type="audio/mp3">
+            Your browser does not support the audio element.
+            </audio>
+                </td>
+                <td>
+                    <audio controls preload="none">
+            <source src="audio/GE2E/jvs/original/jvs003_trg.wav" type="audio/mp3">
+            Your browser does not support the audio element.
+                </td>
+            </tr>
+    </table>
 
+
+    <table>
+        <tr>
+            <td width="165px"><b>JE</b></td>
+            <td>
+            <audio controls preload="none">
+                <source src="audio/JE/jvs/original/jvs002_src.wav" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            </td>
+    
+            <td>
+            <audio controls preload="none">
+            <source src="audio/JE/jvs/jvs002→jvs004.wav" type="audio/mp3">
+            Your browser does not support the audio element.
+            </audio>
+            </td>
+            
+            <td>
+            <audio controls preload="none">
+            <source src="audio/JE/jvs/original/jvs004_trg.wav" type="audio/mp3">
+            Your browser does not support the audio element.
+            </audio>
+                </td>
+                <td>
+                    <audio controls preload="none">
+            <source src="audio/JE/jvs/jvs002→jvs003.wav" type="audio/mp3">
+            Your browser does not support the audio element.
+            </audio>
+                </td>
+                <td>
+                    <audio controls preload="none">
+            <source src="audio/JE/jvs/original/jvs003_trg.wav" type="audio/mp3">
+            Your browser does not support the audio element.
+                </td>
+            </tr>
+    </table>
 
     <p>[1] Stoller, Daniel, Sebastian Ewert, and Simon Dixon. "Wave-u-net: A multi-scale neural network for end-to-end audio source separation." arXiv preprint arXiv:1806.03185 (2018).</p>
     <p>[2] Jansson, Andreas, et al. "Singing voice separation with deep U-Net convolutional networks." (2017).</p>
